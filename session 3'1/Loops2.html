@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For Loop - 2</title>
+</head>
+
+<body>
+
+  <p id="displayLeague"></p>
+
+  <script>
+    var league = ["premierLeague", "ligaBBVA", "bundesLiga", "Calcio A", "franceLeague1"];
+
+    var i = 0;
+    var len = league.lenght;
+    var output = "";
+
+    for (; i <len; ) {
+      output += league[i] + "<br>";
+    i++;
+  }
+  document.getElementId("displayLeague").innerHTML = output;
+  </script>
+
+</body>
+</html>
